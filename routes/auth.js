@@ -4,8 +4,6 @@ const jwt = require('jsonwebtoken')
 const User = require('../model/user')
 const Validation = require('../validation')
 
-// RESEUME FROM 37:24
-// https://www.youtube.com/watch?v=2jqok-WgelI
 router.post('/register', async (req, res) => {
 
     // Validating data before creating user
